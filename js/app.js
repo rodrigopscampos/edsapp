@@ -3,9 +3,8 @@ const URL_TO_FETCH = 'http://localhost:5000/usuarios'
 
 window.onload = function () {
 
-    fetch(URL_TO_FETCH
-
-    ).then(function (response) {
+    fetch(URL_TO_FETCH)
+    .then(function (response) {
         return response.json();
 
     }).then(function (json) {
