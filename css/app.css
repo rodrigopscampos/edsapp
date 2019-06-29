@@ -26,3 +26,73 @@ body {
     top: 0;
     left: 0;
 }
+
+body {
+    position: relative;
+
+}
+
+#section-login {
+    position: absolute;
+    top: 0;
+    left: calc(50% - (1396px / 2));
+
+    width: 1396px;
+    height: calc(100% - 38px);
+    overflow: hidden;
+    background-color: #f8f9fb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 70%;
+}
+#section-login form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#section-login form input{
+    width: 50%;
+    height: 40px;
+}
+#img-login {
+   width: 270px;
+   margin-left: calc( 50% - ( 270px/2 ) );
+}
+
+/*
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+*/
+
+.boas-vindas {
+    text-align: center;
+    color: #4b5961;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+}
+
+.boas-vindas h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 100;
+}
+
+.boas-vindas p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 1rem;
+}
